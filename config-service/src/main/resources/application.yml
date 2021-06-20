@@ -6,13 +6,22 @@ spring:
     name: config-service
 #  profiles:
 #    active: native
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
   cloud:
     config:
       server:
         native:
           search-locations: file://${user.home}/Desktop/native # 임의의 경로
         git:
-          uri: file:///Users/jaemin/Desktop/git-local-repo
-#          uri: https://github.com/jakang
+          uri: https://github.com/JaeminKang/spring-cloud-config
 #          username: jakang
 #          password: hello
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,beans,httptrace,busrefresh

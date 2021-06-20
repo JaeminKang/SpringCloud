@@ -1,0 +1,66 @@
+2021-02-02 20:04:41 0 [Note] InnoDB: Uses event mutexes
+2021-02-02 20:04:41 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-02-02 20:04:41 0 [Note] InnoDB: Number of pools: 1
+2021-02-02 20:04:41 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-02-02 20:04:41 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-02-02 20:04:41 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-02-02 20:04:41 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=45130,45130
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/board.ibd' with space ID 22, since the redo log references ./bootex/board.ibd with space ID 7.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/reply.ibd' with space ID 11, since the redo log references ./bootex/reply.ibd with space ID 9.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/board.ibd' with space ID 22, since the redo log references ./bootex/board.ibd with space ID 10.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/board.ibd' with space ID 22, since the redo log references ./bootex/board.ibd with space ID 10.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/#sql-alter-e216-c7.ibd' with space ID 11. Another data file called ./bootex/reply.ibd exists with the same space ID.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/board.ibd' with space ID 22, since the redo log references ./bootex/board.ibd with space ID 10.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/board.ibd' with space ID 22, since the redo log references ./bootex/board.ibd with space ID 10.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/board.ibd' with space ID 22, since the redo log references ./bootex/board.ibd with space ID 10.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/#sql-alter-39bd-b6.ibd' with space ID 22. Another data file called ./bootex/board.ibd exists with the same space ID.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/movie_image.ibd' with space ID 27, since the redo log references ./bootex/movie_image.ibd with space ID 25.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/review.ibd' with space ID 29, since the redo log references ./bootex/review.ibd with space ID 26.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/#sql-alter-39bd-124.ibd' with space ID 27. Another data file called ./bootex/movie_image.ibd exists with the same space ID.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/review.ibd' with space ID 29, since the redo log references ./bootex/review.ibd with space ID 28.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/review.ibd' with space ID 29, since the redo log references ./bootex/review.ibd with space ID 28.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/review.ibd' with space ID 29, since the redo log references ./bootex/review.ibd with space ID 28.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/review.ibd' with space ID 29, since the redo log references ./bootex/review.ibd with space ID 28.
+2021-02-02 20:04:41 0 [Note] InnoDB: Ignoring data file './bootex/#sql-alter-39bd-124.ibd' with space ID 29. Another data file called ./bootex/review.ibd exists with the same space ID.
+2021-02-02 20:04:41 0 [Note] InnoDB: Starting final batch to recover 74 pages from redo log.
+2021-02-02 20:04:41 0 [Note] InnoDB: 128 rollback segments are active.
+2021-02-02 20:04:42 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-02-02 20:04:42 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-02-02 20:04:42 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-02-02 20:04:42 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-02-02 20:04:42 0 [Note] InnoDB: 10.5.8 started; log sequence number 860068; transaction id 3505
+2021-02-02 20:04:42 0 [Note] InnoDB: Loading buffer pool(s) from /usr/local/var/mysql/ib_buffer_pool
+2021-02-02 20:04:42 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-02-02 20:04:42 0 [Note] InnoDB: Buffer pool(s) load completed at 210202 20:04:42
+2021-02-02 20:04:42 0 [Note] Server socket created on IP: '::'.
+2021-02-02 20:04:42 0 [Note] Reading of all Master_info entries succeeded
+2021-02-02 20:04:42 0 [Note] Added new Master_info '' to hash table
+2021-02-02 20:04:42 0 [Note] /usr/local/opt/mariadb/bin/mariadbd: ready for connections.
+Version: '10.5.8-MariaDB'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2021-02-06 14:10:10 144 [Warning] Access denied for user 'bootuser'@'localhost' (using password: YES)
+2021-02-06 18:27:34 0 [Note] /usr/local/opt/mariadb/bin/mariadbd (initiated by: unknown): Normal shutdown
+2021-02-06 18:27:34 0 [Note] Event Scheduler: Purging the queue. 0 events
+210507 10:51:06 mysqld_safe Starting mariadbd daemon with databases from /usr/local/var/mysql
+2021-05-07 10:51:12 0 [Note] /usr/local/opt/mariadb/bin/mariadbd (mysqld 10.5.9-MariaDB) starting as process 623 ...
+2021-05-07 10:51:12 0 [Warning] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2021-05-07 10:51:12 0 [Note] InnoDB: Uses event mutexes
+2021-05-07 10:51:12 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-05-07 10:51:12 0 [Note] InnoDB: Number of pools: 1
+2021-05-07 10:51:12 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-05-07 10:51:12 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-05-07 10:51:12 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-05-07 10:51:12 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1402245,1402245
+2021-05-07 10:51:13 0 [Note] InnoDB: 128 rollback segments are active.
+2021-05-07 10:51:13 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-05-07 10:51:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-05-07 10:51:13 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-05-07 10:51:14 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-05-07 10:51:14 0 [Note] InnoDB: 10.5.9 started; log sequence number 1402257; transaction id 5917
+2021-05-07 10:51:14 0 [Note] InnoDB: Loading buffer pool(s) from /usr/local/var/mysql/ib_buffer_pool
+2021-05-07 10:51:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-05-07 10:51:14 0 [Note] InnoDB: Buffer pool(s) load completed at 210507 10:51:14
+2021-05-07 10:51:14 0 [Note] Server socket created on IP: '::'.
+2021-05-07 10:51:16 0 [Note] Reading of all Master_info entries succeeded
+2021-05-07 10:51:16 0 [Note] Added new Master_info '' to hash table
+2021-05-07 10:51:16 0 [Note] /usr/local/opt/mariadb/bin/mariadbd: ready for connections.
+Version: '10.5.9-MariaDB'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
